@@ -8,6 +8,7 @@ import {
     View,
     NativeAppEventEmitter,
     TouchableOpacity,
+    Image,
 } from 'react-native';
 
 class RNApp extends React.Component {
@@ -61,6 +62,9 @@ class RNApp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+          <Image
+              source={{uri: 'iqiyi.png'}}
+              style={{height: 200, width: 220}}/>
         <TouchableOpacity onPress={this._showDetail.bind(this)}>
         <Text style={styles.welcome}>
             详情页
