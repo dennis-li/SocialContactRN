@@ -1,6 +1,6 @@
 'use strict';
  
-import * as types from '../constants/actionType';
+import * as types from '../../constants/actionType';
  
 const userInfo = {
 	"isLogin":"0",

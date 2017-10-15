@@ -2,7 +2,7 @@
 
 import React, {Component} from 'react';
 import {Provider} from 'react-redux';
-import configureStore from './store/configureStore';
+import configureStore from './redux/store/configureStore';
 
 import SocialContactApp from './socialContact';
 

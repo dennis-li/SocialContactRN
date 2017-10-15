@@ -1,6 +1,6 @@
 'use strict';
  
-import * as types from '../constants/actionType';
+import * as types from '../../constants/actionType';
  
 export default function(store = {
   headtype:'personal',

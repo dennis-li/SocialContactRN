@@ -1,4 +1,4 @@
-import * as ActionTypes from '../constants/actionType'
+import * as ActionTypes from '../../constants/actionType'
  
 export function switchInvoiceHeadType(headtype) {
    return {

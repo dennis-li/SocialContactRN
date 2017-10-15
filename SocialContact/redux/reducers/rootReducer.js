@@ -1,6 +1,6 @@
 'use strict';
 
-import * as ActionTypes from '../constants/actionType'
+import * as ActionTypes from '../../constants/actionType'
 
 import {combineReducers} from 'redux'
 

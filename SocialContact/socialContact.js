@@ -8,7 +8,7 @@ import {
     View
 } from 'react-native';
 
-import {changeLoginInfo}  from './actions/userInfo'
+import {changeLoginInfo}  from './redux/actions/userInfo'
 import {connect} from 'react-redux';
 import InitSceneName from './constants/sceneNames'
 
