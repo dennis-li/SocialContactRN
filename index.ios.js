@@ -11,6 +11,8 @@ import {
     Image,
 } from 'react-native';
 
+import Main from './SocialContact/main'
+
 class RNApp extends React.Component {
 
     componentDidMount (){
@@ -52,11 +54,11 @@ class RNApp extends React.Component {
           },
       })
 
-        // NativeModules.VIPCenterCommunication.route(params, (data) => {
-        //
-        // },(data) => {
-        //
-        // })
+        NativeModules.SCNativeCommunication.route(params, (data) => {
+
+        },(data) => {
+
+        })
     }
 
   render() {
@@ -102,4 +104,5 @@ const styles = StyleSheet.create({
 });
 
 //  项目名要有所对应
-AppRegistry.registerComponent('RNApp', () => RNApp);
+AppRegistry.registerComponent('RNApp', () => Main);
+module.exports = Main;
