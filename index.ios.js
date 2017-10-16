@@ -11,7 +11,7 @@ import {
     Image,
 } from 'react-native';
 
-import Main from './SocialContact/main'
+import Main from './SocialContact/containers/root/main'
 
 class RNApp extends React.Component {
 
