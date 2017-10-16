@@ -6,7 +6,7 @@ import {Text, StatusBar ,Navigator,Platform} from 'react-native';
 import {setMineTabParent} from '../../redux/actions/gameCenter'
 import {connect} from 'react-redux'
 import InitSceneName from '../../constants/sceneNames'
-import Router from './Router';
+import Router from './router';
 
 
 
